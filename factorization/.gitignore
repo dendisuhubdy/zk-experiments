@@ -4,5 +4,6 @@
 *.sym
 *.wtns
 *.r1cs
+*.r1cs.json
 challenge_0003
 response_0003

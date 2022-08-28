@@ -12,7 +12,6 @@ snarkjs r1cs print circuit.r1cs circuit.sym
 snarkjs r1cs export json circuit.r1cs circuit.r1cs.json
 snarkjs wtns calculate circuit.wasm input.json witness.wtns
 snarkjs plonk setup circuit.r1cs pot12_0003.ptau circuit_final.zkey
-snarkjs zkey verify circuit.r1cs pot12_0003.ptau circuit_final.zkey
 snarkjs zkey export verificationkey circuit_final.zkey verification_key.json
 snarkjs plonk prove circuit_final.zkey witness.wtns proof.json public.json
 snarkjs plonk verify verification_key.json public.json proof.json
