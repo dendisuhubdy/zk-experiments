@@ -10,3 +10,6 @@ rm -rf verifier.sol
 rm -rf proof.json
 rm -rf circuit_final.zkey
 rm -rf public.json
+rm -rf circuit.sym
+rm -rf circuit.wasm
+rm -rf public.json
