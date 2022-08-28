@@ -2,7 +2,6 @@
 *.zkey
 *.wasm
 *.sym
-*.json
 *.wtns
 *.r1cs
 challenge_0003
